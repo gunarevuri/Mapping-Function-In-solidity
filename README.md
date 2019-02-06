@@ -5,10 +5,15 @@ Mapping Function in solidity
  
  here the code ###
  
- pragma solidity 0.5.1;//version of the compiler to run the programme in remix
+ 
+ 
+pragma solidity 0.5.1;
 
 contract MyContract {
+
+
     uint256 peopleCount = 0;
+    
     mapping(uint => person) public people; 
 
     struct Person {
